@@ -16,6 +16,9 @@ After selecting the model and data, simply pressing the 'Go' button to run the m
 Model summary will be output in the bottom right panel.
 
 ### Application
-
+This app is handy for doing preliminary model selection/comparing and outlier identification analysis as it provides immediate model estimation with the flexibility of subseting any portion of the data.
 
 ### Further work
+Right now, as an example, only the mtcar data is loaded. This can be further improved by giving user the option to load any data it needed.
+
+Moreover, only the simple linear model and the no-intercept model are predefined. This can be improved by allowing the user to define it's own models.
