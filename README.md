@@ -1,5 +1,6 @@
 # Develop_Data_Pro
 Coursera Developing Data Products course project
+The User Manual below can be found under *Help*  tab within the app
 
 ## User Manual
 ### Introduction
