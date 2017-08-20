@@ -1,0 +1,37 @@
+---
+title: "Final Project Pitch"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## What is Real Time Model Fitting App
+The real time model fitting app is a handy tool for model selection, comparison, and outlier identification.   
+
+It allows user to select any subset of the data from a plot and run predefined models. 
+
+This app allows user targeting any portion, cluster, subset of the data and observe model stability in real time.  
+
+This app also allows comparison of models across with any subset of the data.  
+
+## Workflow  
+1. Select a model from the drop down manual on the left.  
+2. Select data on the plots.   
+3. Hit the 'Go' button.  
+4. Summary of the fitted model is shown on the right bottom.  
+  
+## Practical example    
+As an example, the mtcars is loaded with hp as x-axis, disp as y-axis and cyl as color coded.  
+
+By selecting only the 4 cylinder data and model y~bx, the slope is 1.6078, statistically significant.  
+By selecting only the 8 cylinder data and model y~bx, the slope is 1.2329, statistically significant.  
+
+This may help the user to infer possible structural changes across cylinders
+
+## To come...  
+A lot more can be added to this app:
+
+* Allowing user defined models
+* Allowing user inputed dataset
